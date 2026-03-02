@@ -1,0 +1,28 @@
+function abrirMenu(){
+
+let menu = document.getElementById("menu");
+
+if(menu.style.left === "0px")
+
+menu.style.left = "-250px";
+
+else
+
+menu.style.left = "0px";
+
+}
+
+
+function mostrarCategoria(categoria){
+
+let categorias = ["jeans","vestidos","croppeds","corsets","blusas"];
+
+categorias.forEach(function(cat){
+
+document.getElementById(cat).style.display = "none";
+
+});
+
+document.getElementById(categoria).style.display = "flex";
+
+}
