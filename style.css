@@ -1,15 +1,127 @@
-body {
-background-color: #fff0f5;
-font-family: Arial;
-text-align: center;
+body{
+margin:0;
+font-family:Poppins;
+background:#fff0f5;
 }
 
-header {
-background-color: #8B1C3D;
-color: white;
-padding: 20px;
+/* TOPO */
+
+header{
+
+background:#B76E79;
+padding:20px;
+text-align:center;
+
 }
 
-h1 {
-font-size: 40px;
+/* LOGO */
+
+.logo{
+
+font-family:Pacifico;
+font-size:40px;
+color:white;
+margin:0;
+
+}
+
+.collection{
+
+color:white;
+margin:0;
+
+}
+
+/* MENU 3 PONTOS */
+
+.menu-btn{
+
+position:absolute;
+top:15px;
+left:20px;
+
+font-size:35px;
+color:white;
+cursor:pointer;
+
+}
+
+.menu{
+
+position:fixed;
+left:-250px;
+top:0;
+
+width:200px;
+height:100%;
+
+background:#B76E79;
+
+padding:20px;
+
+transition:0.3s;
+
+}
+
+.menu button{
+
+display:block;
+
+margin:10px 0;
+
+width:100%;
+
+padding:10px;
+
+border:none;
+
+background:white;
+
+cursor:pointer;
+
+border-radius:10px;
+
+}
+
+/* CATALOGO */
+
+.catalogo{
+
+padding:20px;
+
+}
+
+.linha{
+
+display:flex;
+
+gap:20px;
+
+overflow-x:auto;
+
+padding:20px;
+
+}
+
+.produto{
+
+min-width:200px;
+
+background:white;
+
+padding:10px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.produto img{
+
+width:100%;
+border-radius:10px;
+
 }
